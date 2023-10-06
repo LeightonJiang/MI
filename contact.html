@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jiang">
+    <meta name="description" content="The contact of Micro Ingredients">
+
+    <Title>MI Contact</Title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="icon" href="brand.webp" type="image/x-icon">
+</head>
+
+<BODy>
+    <H1>Contact Us</H1>
+    <section title="address">  
+      
+        <address>
+            <br>4951 Holt Boulevard Suite A
+
+            <br>Montclair, CA 91763
+            
+            <br>United States
+            <br>Phone:<a href="tel:+1 9299776002">929-977-6002</a>
+        </address>
+        <!--add more details of the products-->
+    </section>
+        <hr>
+            <p>We'd love to hear from you.</p>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                <p>
+                <label for="FirstName">First Name:</label>
+                <input type="text" name="FirstName" id="FirstName" placeholder="Jane" autocomplete="on" required>
+            </p>
+
+                <p><label for="LastName">Last Name:</label>
+                <input type="text" name="LastName" id="LastName" placeholder="Doe" autocomplete="on" required>
+            </p>
+
+        <p><label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password" placeholder="your Secret" autocomplete="on" required>
+        </p>
+
+             </p>
+
+                <p><label for="PhoneNumber">Phone number:</label>
+                <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9{3}-[0-9]{4}]" required>
+            </p>
+            <p><label for="decade">Favorite Decade:</label>
+            <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+            </p>
+            <p>
+                <label for="coffee">Favorite Coffee</label>
+                <select name="coffee" id="coffee" multiple size="5">
+                    <optgroup label="Coffees">
+                    <option value="regular coffee">regular coffee</option>
+                    <option value="Iced coffee">iced coffee</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                    <option value="latte">latte</option>
+                    <option value="cappuccino">cappuccino</option>
+                    <option value="Americano" selected>Americano</option>
+                </optgroup>
+                </select>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>What is your favorite supplement?</legend>
+            <p>
+                <input type="checkbox" name="supplement" id="Vitamin" value="Vitamin">
+                <label for="Vitamin">Vitamin</label>
+            </p>
+            <p>
+                <input type="checkbox" name="supplement" id="Superfood" value="Superfood">
+                <label for="Superfood">Superfood</label>
+            </p>
+            <p>
+                <input type="checkbox" name="supplement" id="Minerals" value="Minerals">
+                <label for="Minerals">Minerals</label>
+            </p>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>
+                How frequently do you take supplements?
+            </legend>
+            <p>
+                <input type="radio" name="frequency" id="everyday" value="everyday">
+                <label for="everyday">everyday</label>
+            </p>
+            <p>
+                <input type="radio" name="frequency" id="Twice a week" value="Twice a week">
+                <label for="Twice a week">Twice a week</label>
+            </p>
+            <p>
+                <input type="radio" name="frequency" id="Twice a month" value="Twice a month">
+                <label for="Twice a month">Twice a month</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Tell us more</legend>
+            <label for="message">Your message</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here."></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+
+            </form>
+        <footer>
+            <hr>
+            <p>
+            &lt;&lt;&lt; &copy; Learn more about <a href="about.html">Leighton Jiang</a> &gt;&gt;&gt;
+        </p>
+            <p>
+                <a href="#"> Back to Top</a>
+            </p>
+        </footer>
+</BODy>
+</html>
